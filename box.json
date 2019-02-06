@@ -1,0 +1,15 @@
+{
+    "main": "portal/index.php",
+    "output": "Sample.phar",
+    "alias": "deploy",
+    "directories": [
+        "app",
+        "lib"
+    ],
+    "finder": [],
+    "compression": "NONE",
+    "compactors": [
+        "KevinGH\\Box\\Compactor\\Json",
+        "KevinGH\\Box\\Compactor\\Php"
+    ]
+}
